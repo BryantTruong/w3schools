@@ -1,0 +1,3 @@
+select count(s.City) NumberOfCities, c.Country from Customers c
+join Suppliers s on c.Country = s.Country
+group by s.Country;
