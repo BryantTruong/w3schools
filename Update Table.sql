@@ -1,3 +1,3 @@
-UPDATE categories
-SET categoryname = 'Dairy', Description= 'Cheeses, Milk'
-WHERE categoryid = 4;
+update Categories
+set CategoryName = 'Dairy', Description= 'Cheeses, Milk'
+Where CategoryID = 4;
